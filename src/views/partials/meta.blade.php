@@ -24,7 +24,20 @@
     <link rel="apple-touch-icon-precomposed" href="{{ url('/') }}/images/apple-touch-icon.png" />
 
     <!-- Styles -->
+    <!-- Bootstrap -->
+    {{ HTML::style('Constra/assets/plugins/bootstrap/bootstrap.min.css') }}
+    <!-- FontAwesome -->
+    {{ HTML::style('Constra/assets/plugins/fontawesome/css/all.min.css') }}  
+    <!-- Animation -->
+    {{ HTML::style('Constra/assets/plugins/animate-css/animate.css') }}
+    <!-- slick Carousel -->
+    {{ HTML::style('Constra/assets/plugins/slick/slick.css') }}
+    {{ HTML::style('Constra/assets/plugins/slick/slick-theme.css') }}
+    <!-- Colorbox -->
+    {{ HTML::style('Constra/assets/plugins/colorbox/colorbox.css') }}
+    <!-- Template styles-->
     {{ HTML::style('Constra/css/styles.css') }}
+
     @push('scripts')
     <!-- initialize jQuery Library -->
     {{ HTML::script('Constra/assets/plugins/jQuery/jquery.min.js') }}
