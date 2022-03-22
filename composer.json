@@ -1,0 +1,24 @@
+{
+    "name": "ahmadsyamim/constra-theme",
+    "title": "Constra",
+    "description": "",
+    "type": "laravel-module-theme",
+    "authors": [
+        {
+            "name": "Ahmad Syamim",
+            "email": "ahmad.syamim@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+            }
+        }
+    },
+    "require": {
+    },
+    "scripts": {
+        "dist": "tar -cvzf ./dist/Constra.theme.tar.gz -C ./src ."
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "name": "Constra",
+    "package_name": "ahmadsyamim/constra-theme",
+    "extends": "",
+    "asset-path": "Constra",
+    "views-path": "Constra"
+}
